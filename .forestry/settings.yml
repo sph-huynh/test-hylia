@@ -13,6 +13,12 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: directory
+  label: Data
+  path: data
+  match: "*.toml"
+  new_doc_ext: ".toml"
+  create: all
 - type: heading
   label: Globals
 - type: document
